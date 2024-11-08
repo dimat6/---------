@@ -1,0 +1,90 @@
+/*font-family: "Revalia", sans-serif;
+font-family: "Roboto", sans-serif;*/
+:root {
+  --accent-color: #34547A;
+  --silver-color: #EEEFF1;
+}
+html {
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.header {
+  height: 700px;
+  background-color: #ddd;
+}
+.header_title {
+  margin-bottom: 162px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.h1 {
+  font-size: 48px;
+  font-family: "Revalia", sans-serif;
+  color: var(--accent-color);
+}
+.h2 {
+  display: flex;
+  padding-left: 115px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.p {
+  margin-right: 42px;
+  font-size: 16px;
+}
+.p:last-child {
+  margin-right: 0;
+}
+.header_title_1 {
+  display: flex;
+  justify-content: space-around;
+}
+.img {
+  width: 403px;
+  height: 255px;
+}
+.h3 {
+  margin-top: 0px;
+  margin-bottom: 62px;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.button {
+  margin-left: 80px;
+  width: 225px;
+  height: 65px;
+  background-color: #34547A;
+  color: #ddd;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+.p_1 {
+  margin-bottom: 63px;
+}
+
+/*Раздел 2*/
+.pazdel_2 {
+  text-align: center;
+}
+.h_3 {
+  margin: 0;
+  padding-top: 119px;
+  padding-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+.p_2 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
